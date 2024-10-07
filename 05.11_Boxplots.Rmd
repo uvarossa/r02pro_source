@@ -157,7 +157,7 @@ ggplot(data = na.omit(sahp),
   scale_x_discrete(limits=c("1Story", "2Story"))
 ```
 
-Note that we only show the two boxplots with `house_style` equaling `"1Story"` or `"2Story"`. To simply the codes, it is sometimes helpful to store the intermediate plot object and build additional plots on top of it. For example, we can generate the same boxplot using the following two steps.
+Note that we only show the two boxplots with `house_style` equaling `"1Story"` or `"2Story"`. To simplify the codes, it is sometimes helpful to store the intermediate plot object and build additional plots on top of it. For example, we can generate the same boxplot using the following two steps.
 
 ```{r, eval = TRUE, results = FALSE, warning=FALSE}
 g <- ggplot(data = na.omit(sahp), 
